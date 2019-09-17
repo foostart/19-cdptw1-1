@@ -1,11 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title>title</title>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/index_BDS.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	
     </head>
     <body>
 
@@ -18,11 +19,11 @@
                     <div class="top-right">
                         <ul class="info pull-left clearfix">
                             <li ><a href="#"><span class="icon fa fa-envelope-o"></span> companymail@gmailcom</a></li>
-                            <li class="phone"><a href="tel:(880) 172 380 1729"><span class="icon fa fa-phone"></span> (880) 172 380 1729 </a></li>
+                            <li class="phone"><a href=""><span class="icon fa fa-phone"></span> (880) 172 380 1729 </a></li>
                         </ul>
 
                         <!--Social Links-->
-                        <div class="social-links pull-left clearfix" style="top: 15px;">
+                        <div class="social-links pull-left clearfix">
                             <a title="Facebook" href="#"><span class="fa fa-facebook"></span></a>
                             <a title="Twitter" href="#"><span class="fa fa-twitter"></span></a>
                             <a title="Linked in" href="#"><span class="fa fa-linkedin"></span></a>
@@ -39,7 +40,7 @@
                     <div class="lower-outer clearfix">
                         <!--Logo-->
                         <div class="logo">
-                            <a href="#"><img src="../images/logo-3.png" alt="Bulldozer" title="Dream Land"></a>
+                            <a href="#"><img src="../743/images/logo-3.png" alt="Bulldozer" title="Dream Land"></a>
                         </div>
 
                         <!--Right Container-->
@@ -55,7 +56,7 @@
                                 </button>
                             </div>
 
-                            <div class="navbar-collapse clearfix collapse" aria-expanded="false" style="height: 2px;">
+                            <div class="navbar-collapse clearfix collapse" role="main" aria-expanded="false" style="height: 2px;">
                                 <ul class="navigation">
 
                                     <li class=" -home dropdown active"><a title="Home" href="#" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Home</a>
