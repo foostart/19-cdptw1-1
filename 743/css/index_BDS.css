@@ -98,11 +98,11 @@ a {
   top: 0px;
   width: 100%;
   background: #ffffff;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .header-lower .auto-container {
   position: static;
@@ -113,23 +113,23 @@ a {
 .header-style-two .header-lower .logo {
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: -15px;
   text-align: center;
   width: 234px;
   max-height: 150px;
   background: #71b100;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .header-lower .logo img {
   height: 150px;
   display: inline-block;
   max-width: 100%;
   max-height: 150px;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
 }
 .header-style-two .lower-outer {
   position: relative;
@@ -150,11 +150,11 @@ a {
   width: 0px;
   height: 4px;
   background: #71b100;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .main-menu .navigation > li:hover > a:before {
   width: 100%;
@@ -188,11 +188,11 @@ a {
   font-weight: normal;
   font-size: 12px;
   color: #3a3a3a;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .main-menu .navigation > li > ul > li:hover > a {
   background-color: #71b100 !important;
@@ -225,11 +225,11 @@ a {
   background: #ffffff;
   visibility: hidden;
   opacity: 0;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .main-menu .navigation > li > ul > li.dropdown > a:after {
   font-family: 'FontAwesome';
@@ -265,11 +265,11 @@ a {
   font-weight: normal;
   font-size: 12px;
   color: #3a3a3a;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .main-menu .navigation > li > ul > li > ul > li > a:before {
   content: '\f105';
@@ -295,11 +295,11 @@ a {
   line-height: 28px;
   text-transform: uppercase;
   opacity: 1;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .main-menu .navigation > li ul {
   position: absolute;
@@ -313,11 +313,11 @@ a {
   background: #ffffff;
   visibility: hidden;
   opacity: 0;
-  transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -webkit-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
+  transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
 }
 .header-style-two .navbar-toggle {
   position: relative;
@@ -500,6 +500,13 @@ a {
 }
 
 @media only screen and (max-width: 767px) {
+  .header-style-two .header-top .info {margin: 0;}
+  .top-right .pull-left {float: none!important;}
+  .header-style-two .header-top .top-right {float: none;}
+  .header-style-two .header-top .auto-container {padding: 0!important}
+  .header-style-two .header-top .info li a {display: inline-block;}
+  .header-style-two .header-top .info li {padding: 0; text-align: center;}
+  .header-style-two .header-top .info li {border: none;}
   .header-style-two .lower-outer {
     padding-left: 0px;
   }
@@ -680,6 +687,7 @@ a {
   .header-style-two .header-top .auto-container {
     padding-left: 15px;
   }
+  .header-style-two .header-top .top-right ul {margin-bottom: 0;}
 
  
 }
@@ -693,6 +701,10 @@ a {
   }
 }
 @media only screen and (max-width: 1023px) {
+  .header-style-two .main-menu .navigation > li {padding: 2px;}
+  .header-style-two .main-menu .navigation {width: 510px;}
+  .header-style-two .lower-outer {padding: 0;}
+  .header-style-two .header-lower .logo {width: 200px;}
   .main-menu .navigation > li {
     margin-left: 10px !important;
   }
