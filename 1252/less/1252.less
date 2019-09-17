@@ -1,0 +1,58 @@
+@colorCam : #cb7152;
+@sizeMarginH3:0.6em;
+@font-face {
+    font-family: 'HandleeFont';
+    src: url('../fonts/Handlee-Regular.ttf');
+}
+@font-face {
+    font-family: 'LibreBaskervilleFontR';
+    src: url('../fonts/LibreBaskerville-Regular.ttf');
+}
+::selection {
+    background: #cb7152;
+    color: #fff;
+}
+
+.type-1252{
+    .col-md-push-1{
+        h3{
+            margin-top: @sizeMarginH3;
+            margin-bottom: @sizeMarginH3;
+            font: normal 40px/50px LibreBaskervilleFontR;
+            text-align: center;
+        }
+        h6{
+            color:@colorCam!important;
+            font: normal 14px/22px HandleeFont;
+            margin-top: -1em;
+            letter-spacing: 0.3em;
+            margin-bottom: 1.6em;
+            text-align: center;
+        }
+        h6:before, h6:after{
+            display: inline-block;
+            width: auto;
+            height: 15px;
+            content: "~";
+            font-size: 1.1em;
+            padding: 0px 5px;
+        }
+        .blank-space{
+            display: block;
+        }
+
+        p{
+            font: normal 16px/24px Varela Round;
+            margin: 1em 0;
+            text-align: center;
+        }
+    }
+
+
+}
+
+@media screen and(max-width:480px){
+    .type-1252 .col-md-push-1 h3{
+          font-size: 19px;
+    }
+}
