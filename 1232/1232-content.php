@@ -1,8 +1,8 @@
 <?php
-include '../config.php';
+//include '../config.php';
 
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
 preg_match_all($pattern_uri, __DIR__, $matches);
@@ -90,7 +90,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <!--MENU ITEM-->
                         <li class="dropdown show-hover">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Liên hệ<i class="fa fa-angle-down"></i></a>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Liên hệ</a>
                         </li>
                         <!--/MENU ITEM-->
 

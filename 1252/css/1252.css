@@ -3,7 +3,7 @@
   src: url('../fonts/Handlee-Regular.ttf');
 }
 @font-face {
-  font-family: 'LibreBaskervilleFontR';
+  font-family: 'Lora';
   src: url('../fonts/LibreBaskerville-Regular.ttf');
 }
 ::selection {
@@ -13,7 +13,7 @@
 .type-1252 .col-md-push-1 h3 {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
-  font: normal 40px/50px LibreBaskervilleFontR;
+  font: normal 40px/50px Lora;
   text-align: center;
 }
 .type-1252 .col-md-push-1 h6 {

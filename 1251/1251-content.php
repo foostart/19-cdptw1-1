@@ -25,8 +25,8 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a href="#" class="m1-navi-menus-Activity">Homes</a>
                                 <ul class="m1-navi-menus-subMenu">
                                     <li><a href="#" >Gourmet</a></li>
-                                    <li><a href="#" class="m1-navi-menus-Activity">Coffee</a></li>
-                                    <li><a href="#">Sushi</a></li>
+                                    <li><a href="#" >Coffee</a></li>
+                                    <li><a href="#" >Sushi</a></li>
                                 </ul>
 
                             </li>
@@ -91,8 +91,8 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="m1-navi-icon">
                         <div class="m1-navi-icon-cart">
                             <a class="m1-navi-cart-icon" href="#">
-                                <span class="icon"></span>
-                                <span class="products cart-empty">0</span> 
+                                <span class="icon"> <div class="products cart-empty">0</div> </span>
+                                
                             </a>
                             <div class="m1-widget_shopping_cart">
                                 <ul class="m1-cart_list">
