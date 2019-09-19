@@ -269,7 +269,7 @@ header{
         .m1-banner-caption{
 
             position: absolute;
-            left: 47%;
+            left: 45%;
             top: 35%;
             text-align: center;
 
@@ -292,13 +292,12 @@ header{
                 line-height: 1.4em;
             }
             .layer-a{
+				margin: auto;
+				display: block;
                 width: 120px;
                 height: 3px;
                 border-radius: 30px;
-                background: #cb7152;
-                margin-left: 30px;
-                margin-top: 15px;
-                margin-bottom: 10px;                       
+                background: #cb7152;                      
             }     
 
             .layer-1{           
@@ -363,11 +362,13 @@ header{
             font-size: 90px !important;
         }
         .layer-0{
+			
             padding-left: 30px;
+			margin-bottom 15px!important;
         }
         .layer-1{          
-            font-size: 110px;
-            transform: matrix3d(0.978148, -0.207912, 0, 0, 0.207912, 0.978148, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+            
+            /* transform: matrix3d(0.978148, -0.207912, 0, 0, 0.207912, 0.978148, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important; */
         }
         .layer-2{
             line-height: 40px !important;
@@ -378,17 +379,18 @@ header{
 @media screen and(max-width:480px){
     .m1-banner-caption{
         top: 40% !important;
-        left: 30% !important;
+        left: 0% !important;
         .m1-banner-caption-layer{
             line-height: 50px !important;
             font-size: 50px !important;
         }
         .layer-0{
+			margin-bottom 15px!important;
             padding-left: 10px !important;
         }
         .layer-1{          
             font-size: 100px;
-            transform: matrix3d(0.978148, -0.207912, 0, 0, 0.207912, 0.978148, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
+            // transform: matrix3d(0.978148, -0.207912, 0, 0, 0.207912, 0.978148, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
         }
         .layer-2{
             line-height: 30px !important;
@@ -396,8 +398,18 @@ header{
         }
     }
 }
-
+//-------------------header------------------------//
+@media screen and(max-width:1024px) {
+	header {
+		.m1-banner {
+			.m1-banner-caption {
+				left: 0;
+			}
+		}
+	}
+}
 //-------------------NaviGator------------------------//
+
 @media screen and(min-width:961px){
     .m1-navi-boder{
         transition: all 1s;
@@ -520,8 +532,9 @@ header{
                 font-size: 150% !important;
             }
         }
+		
         .m1-navi-menus{
-            display: none;
+            display: block;
             position: absolute;
             top: 45px;
 
@@ -562,6 +575,7 @@ header{
 
             }
         }
+		.toggle-transition {display: none!important;}
         .m1-navi-icon{
             width: 100% !important;
         }

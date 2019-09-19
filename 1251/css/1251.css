@@ -241,7 +241,7 @@ header .m1-banner ul li .m1-banner-img {
 }
 header .m1-banner .m1-banner-caption {
   position: absolute;
-  left: 47%;
+  left: 45%;
   top: 35%;
   text-align: center;
 }
@@ -260,13 +260,12 @@ header .m1-banner .m1-banner-caption .layer-0 {
   line-height: 1.4em;
 }
 header .m1-banner .m1-banner-caption .layer-a {
+  margin: auto;
+  display: block;
   width: 120px;
   height: 3px;
   border-radius: 30px;
   background: #cb7152;
-  margin-left: 30px;
-  margin-top: 15px;
-  margin-bottom: 10px;
 }
 header .m1-banner .m1-banner-caption .layer-1 {
   font-family: Varela Round;
@@ -309,10 +308,6 @@ header .m1-banner .m1-banner-caption .layer-1 {
   .m1-banner-caption .layer-0 {
     padding-left: 30px;
   }
-  .m1-banner-caption .layer-1 {
-    font-size: 110px;
-    transform: matrix3d(0.978148,-0.207912,0,0,0.207912,0.978148,0,0,0,0,1,0,0,0,0,1) !important;
-  }
   .m1-banner-caption .layer-2 {
     line-height: 40px !important;
     font-size: 17px !important;
@@ -321,7 +316,7 @@ header .m1-banner .m1-banner-caption .layer-1 {
 @media screen and (max-width: 480px) {
   .m1-banner-caption {
     top: 40% !important;
-    left: 30% !important;
+    left: 0% !important;
   }
   .m1-banner-caption .m1-banner-caption-layer {
     line-height: 50px !important;
@@ -332,11 +327,15 @@ header .m1-banner .m1-banner-caption .layer-1 {
   }
   .m1-banner-caption .layer-1 {
     font-size: 100px;
-    transform: matrix3d(0.978148,-0.207912,0,0,0.207912,0.978148,0,0,0,0,1,0,0,0,0,1) !important;
   }
   .m1-banner-caption .layer-2 {
     line-height: 30px !important;
     font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header .m1-banner .m1-banner-caption {
+    left: 0;
   }
 }
 @media screen and (min-width: 961px) {
@@ -426,7 +425,7 @@ header .m1-banner .m1-banner-caption .layer-1 {
     font-size: 150% !important;
   }
   .m1-navi .m1-navi-menus {
-    display: none;
+    display: block;
     position: absolute;
     top: 45px;
     width: 100% !important;
@@ -459,6 +458,9 @@ header .m1-banner .m1-banner-caption .layer-1 {
     margin-right: 7% !important;
     position: relative !important;
     left: 0% !important;
+  }
+  .m1-navi .toggle-transition {
+    display: none !important;
   }
   .m1-navi .m1-navi-icon {
     width: 100% !important;

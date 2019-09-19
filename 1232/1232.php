@@ -17,7 +17,7 @@
     
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
     <head>
         <title>1232</title>
         

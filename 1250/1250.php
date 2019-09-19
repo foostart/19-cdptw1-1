@@ -25,7 +25,7 @@ $less->compileFile('less/1250.less', 'css/1250.css');
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
         <link href="<?php echo $url_path ?>/css/1250.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Varela+Round&display=swap" rel="stylesheet">
+        
     </head> 
     <body> 
         <?php include '../1250/1250-content.php'; ?>
