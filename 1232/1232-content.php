@@ -40,14 +40,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <!--MENU ITEM-->
                         <li class="dropdown show-hover">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">KT-Royal<i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Giới thiệu</a></li>
-                                <li><a href="#">Tổ chức</a></li>
-                                <li><a href="#">Quy trình</a></li>
-                                <li><a href="#">Báo giá</a></li>
-                                <li><a href="#">Thiết bị</a></li>
-                            </ul>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">KT-Royal</a>
                         </li>
                         <!--/MENU ITEM-->
 
@@ -66,25 +59,13 @@ $url_path = str_replace('\\', '/', $url_path);
 
                         <!--MENU ITEM-->
                         <li class="dropdown show-hover">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Dịch vụ<i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Thiết kế nội thất căn hộ</a></li>
-                                <li><a href="#">Thiết kế nội thất văn phòng</a></li>
-                                <li><a href="#">Thiết kế nội thất nhà phố</a></li>
-                                <li><a href="#">Thiết kế nội thất Shop/Coffee</a></li>
-                            </ul>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Dịch vụ</a>
                         </li>
                         <!--/MENU ITEM-->
 
                         <!--MENU ITEM-->
                         <li class="dropdown show-hover">
-                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Nhân sự<i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Giám đốc</a></li>
-                                <li><a href="#">Kỹ thuật</a></li>
-                                <li><a href="#">Chất lượng</a></li>
-                                <li><a href="#">Tài chính</a></li>
-                            </ul>
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Nhân sự</a>
                         </li>
                         <!--/MENU ITEM-->
 

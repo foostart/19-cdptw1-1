@@ -23,29 +23,12 @@ $url_path = str_replace('\\', '/', $url_path);
             <ul>
                 <li>
                     <a href="#" class="m1-navi-menus-Activity">Homes</a>
-                    <ul class="m1-navi-menus-subMenu">
-                        <li><a href="#" >Gourmet</a></li>
-                        <li><a href="#" >Coffee</a></li>
-                        <li><a href="#" >Sushi</a></li>
-                    </ul>
-
                 </li>
                 <li>
                     <a href="#">About</a>
-                    <ul class="m1-navi-menus-subMenu">
-                        <li><a href="#">People</a></li>
-                        <li><a href="#">Guestbook</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
                 </li>
                 <li>
                     <a href="#">Menu</a>
-                    <ul class="m1-navi-menus-subMenu">
-                        <li><a href="#">Expressive</a></li>
-                        <li><a href="#">Handsome</a></li>
-                        <li><a href="#">Classic</a></li>
-                        <li><a href="#">Gallery</a></li>
-                    </ul>
                 </li>
                 <li><a href="#">Reservation</a></li>
                 <li>
@@ -58,30 +41,9 @@ $url_path = str_replace('\\', '/', $url_path);
                 </li>
                 <li>
                     <a href="#">Blog</a>
-                    <ul class="m1-navi-menus-subMenu">
-                        <li><a href="#">Healthy Food</a></li>
-                        <li><a href="#">Recipes</a></li>
-                        <li><a href="#">Cooking</a></li>
-                    </ul>
                 </li>
                 <li>
                     <a href="#">Features</a>
-                    <ul class="m1-navi-menus-subMenu">
-                        <li><a href="#">Why Buy?</a></li>
-                        <li><a href="#">Theme Options</a></li>
-                        <li><a href="#">Coming Soon</a></li>
-                        <li>
-                            <a>Blog post  ></a>
-                            <ul class="m1-navi-menus-subMenu-1">
-                                <li><a href="#">No Sidebar</a></li>
-                                <li><a href="#">Left Sidebar</a></li>
-                                <li><a href="#">Right Sidebar</a></li>
-                                <li><a href="#">Left &amp; Right Sidebar</a></li>
-                                <li><a href="#">Top Widgets</a></li> 
-                            </ul>
-                        </li>
-                        <li><a href="#">Icons</a></li>
-                    </ul>
                 </li>
                 <li><a href="#">Shop</a></li>
                 <li><a href="#">Contact</a></li>

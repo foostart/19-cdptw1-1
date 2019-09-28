@@ -5,6 +5,8 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/index_BDS.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="js/743.js" type="text/javascript"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
     </head>
@@ -69,8 +71,6 @@
                                         <div class="dropdown-btn"></div></li>
                                     <li class=" dropdown"><a title="Pages" href="#" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Pages</a>
                                         <ul role="menu" style="display: none;">
-                                            <li ><a title="Video Tour" href="#">Video Tour</a></li>
-                                            <li ><a title="Gallery" href="#">Gallery</a></li>
                                             <li class=" dropdown"><a title="Sidebar Page" href="#">Sidebar Page</a>
                                                 <ul role="menu" style="display: none;">
                                                     <li ><a title="Left Sidebar" href="#">Left Sidebar</a></li>
@@ -84,19 +84,12 @@
                                         <div class="dropdown-btn"></div></li>
                                     <li ><a title="About US" href="#" data-scroll="" data-options="easing: easeOutQuart">About US</a></li>
                                     <li class=" dropdown"><a title="Gallery" href="#" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Gallery</a>
-                                        <ul role="menu" style="display: none;">
-                                            <li ><a title="Gallery Full Width" href="#">Gallery Full Width</a></li>
-                                            <li ><a title="Gallery Boxed" href="#">Gallery Boxed</a></li>
-                                        </ul>
+                                        
 
                                         <div class="dropdown-btn"></div></li>
                                     <li ><a title="Video Tour" href="#" data-scroll="" data-options="easing: easeOutQuart">Video Tour</a></li>
                                     <li class=" dropdown"><a title="Blog" href="#" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Blog</a>
-                                        <ul role="menu" style="display: none;">
-                                            <li ><a title="Blog" href="#">Blog</a></li>
-                                            <li ><a title="Blog Two Column" href="#">Blog Two Column</a></li>
-                                            <li ><a title="Blog Details" href="#">Blog Details</a></li>
-                                        </ul>
+                                        
 
                                         <div class="dropdown-btn"></div></li>
                                     <li ><a title="Contact Us" href="#" data-scroll="" data-options="easing: easeOutQuart">Contact Us</a></li>

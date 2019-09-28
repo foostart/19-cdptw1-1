@@ -136,7 +136,6 @@ a {
   padding: 0px 0px 0px 240px;
 }
 .header-style-two .main-menu {
-  position: relative;
   float: right;
 }
 .header-style-two .main-menu .navbar-collapse {
@@ -404,7 +403,7 @@ a {
   .main-menu .navbar-header .navbar-toggle .icon-bar {
     background: #71b100;
   }
-  .main-menu .collapse {
+/*  .main-menu .collapse {
     position: relative;
     top: 20px;
     max-height: 300px;
@@ -419,12 +418,10 @@ a {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -o-border-radius: 3px;
-  }
+  }*/
   .main-menu .navbar-collapse > .navigation {
-    float: none !important;
     margin: 0px;
     width: 100%;
-    background: #71b100;
   }
   .main-menu .navbar-collapse > .navigation li {
     margin-left: 0px !important;
@@ -476,7 +473,7 @@ a {
     padding: 10px 10px !important;
     line-height: 22px;
     color: #ffffff !important;
-    background: #71b100;
+    background: black;
     text-align: left;
   }
   .main-menu li.dropdown .dropdown-btn {
@@ -533,7 +530,7 @@ a {
     z-index: 5;
     width: 100%;
   }
-  .main-menu .collapse {
+/*  .main-menu .collapse {
     position: relative;
     top: 20px;
     max-height: 300px;
@@ -548,7 +545,7 @@ a {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     -o-border-radius: 3px;
-  }
+  }*/
   .main-menu .collapse,
   .main-menu{
     padding: 0px;
@@ -568,19 +565,7 @@ a {
     width: auto;
     z-index: 12;
   }
-  .main-menu .navbar-header .navbar-toggle {
-    display: block;
-    z-index: 7;
-    border: 1px solid #71b100;
-    margin: 0px 0px 0px 0px;
-  }
   .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: #71b100;
-  }
-  .main-menu .navbar-collapse > .navigation {
-    float: none !important;
-    margin: 0px;
-    width: 100%;
     background: #71b100;
   }
   .main-menu .navigation > li {
@@ -640,17 +625,10 @@ a {
   }
   .main-menu .navbar-collapse > .navigation > li > a,
   .main-menu .navbar-collapse > .navigation > li > ul > li > a,
-  .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a {
-    padding: 10px 10px !important;
-    line-height: 22px;
-    color: #ffffff !important;
-    background: #71b100;
-    text-align: left;
-  }
   .main-menu .navbar-collapse > .navigation > li > a:hover,
   .main-menu .navbar-collapse > .navigation > li > a:active,
   .main-menu .navbar-collapse > .navigation > li > a:focus {
-    background: #71b100;
+    background: black;
     color: #ffffff;
   }
   .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
@@ -702,7 +680,7 @@ a {
 }
 @media only screen and (max-width: 1023px) {
   .header-style-two .main-menu .navigation > li {padding: 2px;}
-  .header-style-two .main-menu .navigation {width: 510px;}
+  .header-style-two .main-menu .navigation {width: 70%;}
   .header-style-two .lower-outer {padding: 0;}
   .header-style-two .header-lower .logo {width: 200px;}
   .main-menu .navigation > li {
@@ -713,6 +691,7 @@ a {
   }
 }
 @media (max-width: 766px) {
+  .show{display: block;}
   .navbar-header {
     float: right;
     margin-top: 0px;
