@@ -10,11 +10,13 @@
   background: #cb7152;
   color: #fff;
 }
+.type-1252 .col-md-push-1 {
+  text-align: center;
+}
 .type-1252 .col-md-push-1 h3 {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
   font: normal 40px/50px Lora;
-  text-align: center;
 }
 .type-1252 .col-md-push-1 h6 {
   color: #cb7152 !important;
